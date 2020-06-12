@@ -33,7 +33,7 @@ while(cap.isOpened()):
     frame1=frame2
     ret, frame2=cap.read()
 
-    if(cv2.waitKey(40)==27):
+    if (cv2.waitKey(1) & 0xFF == ord('q')):
         break
 
 cv2.destroyAllWindows()
