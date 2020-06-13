@@ -1,14 +1,5 @@
 import cv2
 import numpy as np
-###k=cv2.VideoCapture(0)
-#while(True):
- #   _,video=k.read()
-  #  cv2.imshow('Camera',video)
-   # y=cv2.waitKey(30) & 0xff
-    #if(y==27):
-     #   break
-
-#events=[i for i in dir(cv2) if 'EVENT' in i]
 
 cap=cv2.VideoCapture(0)
 
